@@ -1,1 +1,3 @@
-# ConsciousAI2
+# ConsciousAI
+
+My conscious AI Python code
