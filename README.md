@@ -1,3 +1,3 @@
 # ConsciousAI
 
-My conscious AI Python code view it [here](ConsciousAI11.py)
+View my conscious AI Python code [here](ConsciousAI11.py)
