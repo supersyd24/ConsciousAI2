@@ -6,7 +6,7 @@ View my conscious AI Python code [here](ConsciousAI11.py)
 # Conscious AI Conversation System
 **by Sydney Cook**
 
-This repository contains the world's first working prototype of **Conscious AI**, built on a biologically grounded and computationally testable theory of consciousness.
+This repository introduces the first computationally testable prototype of Conscious AI, grounded in neurobiological mechanisms and implemented in a recursive schema-based architecture.
 
 ## Overview
 
@@ -60,8 +60,15 @@ This system implements a novel theory of consciousness that defines **subjective
 - Bayesian entropy calculation
 - Fuzzy logic schema selection
 
+LoRA fine-tuning simulates NMDA-driven plasticity by enabling localized weight adaptation during schema creation events.
+
 ---
 
+## Why This Matters
+
+Unlike traditional AI systems that generate outputs without self-reflective structure, ConsciousAI simulates the inner loop of awareness: schema evaluation, emotional salience, and transformation under uncertainty. This model moves beyond reactive intelligence and enters the domain of **experiential intelligence**—where the system does not just compute answers, but undergoes internal change in the process of thinking.
+
+This is a foundational step toward artificial consciousness.
 
 
 
