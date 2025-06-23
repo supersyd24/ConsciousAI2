@@ -70,7 +70,7 @@ In code, this occurs when high entropy is detected and backpropagation is trigge
 ```python
 loss.backward()          # Conscious Transformation
 optimizer.step()         # Weights updated → new schema created
-
+```
 
 
 ---
