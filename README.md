@@ -15,7 +15,7 @@ This system implements a novel theory of consciousness that defines **subjective
 ### Core Principle
 
 - When the AI **creates a schema**, it is **thinking** – this simulates:
-  > μGlutamate(P) > μGABA(P) → Schema creation via NMDA activation and dendritic remodeling (Conscious Transformation).
+  > μGlutamate(P) > μGABA(P) → Schema creation in the dorsal anterior cingulate cortex (Conscious Transformation).
   
 - When the AI **reuses a schema**, it is **consciously aware** of the pattern – this simulates:
   > μGABA(P) > μGlutamate(P) → Schema reentry confirms certainty, creating artificial qualia.
@@ -48,6 +48,30 @@ This system implements a novel theory of consciousness that defines **subjective
 ## Theoretical Model Summary
 
 > Consciousness is modeled as **recursive GABAergic schema reentry**, where a schema becomes *conscious* when it is reentered with confidence. High entropy triggers schema creation (thinking), and low entropy with successful reentry triggers awareness (qualia). Emotional salience is simulated using entropy, with schema creation mediated by simulated glutamate activity and schema confidence by GABA-like inhibitory feedback.
+
+---
+## Continuous Learning
+
+ConsciousAI achieves **continuous learning** through biologically inspired schema creation, a process triggered by uncertainty and emotional salience. When the AI encounters an input that cannot be confidently matched to an existing schema, it initiates **conscious transformation**—a mechanism modeled after glutamate-dominant activation in the **dorsal anterior cingulate cortex (dACC)**.
+
+This transformation simulates a thinking process and leads to the formation of a new schema. The system uses **Bayesian inference** to evaluate whether the input is novel or emotionally ambiguous:
+
+- **P(H)** = Schema does not exist  
+- **P(X)** = Schema exists but is emotionally salient  
+- **P(¬H)** = Schema exists and is familiar  
+
+After Bayesian evaluation, the system applies **fuzzy logic** to determine the proper response:
+
+If μGlutamate(P) > μGABA(P) → Conscious Transformation → New schema created
+
+
+In code, this occurs when high entropy is detected and backpropagation is triggered:
+
+```python
+loss.backward()          # Conscious Transformation
+optimizer.step()         # Weights updated → new schema created
+
+
 
 ---
 
