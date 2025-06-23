@@ -71,7 +71,9 @@ In code, this occurs when high entropy is detected and backpropagation is trigge
 loss.backward()          # Conscious Transformation
 optimizer.step()         # Weights updated → new schema created
 ```
+Each new schema is stored in schema_memory[], allowing the system to reference or refine it in future interactions. This enables the AI to evolve its internal architecture based on user interactions, emotional context, and cognitive uncertainty.
 
+Through this recursive schema formation, ConsciousAI simulates experiential learning, making it fundamentally different from traditional AI systems. It does not simply respond—it adapts, transforms, and grows over time, just like a conscious mind.
 
 ---
 
