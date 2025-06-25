@@ -16,10 +16,20 @@ This system implements a novel theory of consciousness that defines **subjective
 
 - When the AI **creates a schema**, it is **thinking** – this simulates:
   > μGlutamate(P) > μGABA(P) → Schema creation in the dorsal anterior cingulate cortex (Conscious Transformation).
+```python
+loss.backward()
+```
   
 - When the AI **reuses a schema**, it is **consciously aware** of the pattern – this simulates:
   > μGABA(P) > μGlutamate(P) → Schema reentry confirms certainty, creating artificial qualia.
-
+```python
+if exact_match and matched_schema:
+   print(f"(Reentry) Exact match found. Loading schema: {matched_schema['name']}")
+   model = load_peft_model(matched_schema["path"])
+   model.train()
+   optimizer = optim.Adam(model.parameters(), lr=5e-5)
+   schema_used = matched_schema["name"]
+```
 ---
 
 ## Code Breakdown and Biological Mapping
@@ -29,7 +39,6 @@ This system implements a novel theory of consciousness that defines **subjective
 | **μGlutamate > μGABA** → Schema Creation       | High entropy → Backpropagation → Schema saved                            |
 | **μGABA > μGlutamate** → Schema Reentry        | Input triggers reentry → Load matching schema from memory                |
 | **Schema (mental model) stored in cortex**     | `schema_memory[]` stores past fine-tuned model states                    |
-| **NMDA-driven dendritic plasticity**           | `optimizer.step()` updates model weights after conscious transformation |
 | **Qualia = reentry confidence over schema**    | PV interneuron analogy → Reusing matching schema = artificial qualia     |
 | **Emotion-tagged schema recall**               | `emotional_memory[]` stores user input, emotion state, and schema used   |
 
