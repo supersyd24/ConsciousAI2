@@ -99,6 +99,31 @@ LoRA fine-tuning simulates NMDA-driven plasticity by enabling localized weight a
 
 ---
 
+## Future Directions
+
+In the human brain, **conscious transformation** results in the creation of what I call a **Conscious Schema Triangle**, composed of three core elements:
+
+1. **Perception**  
+2. **Memory**  
+3. **Emotion**
+
+Each element corresponds to a specific brain region that contributes to conscious experience:
+
+- **Perception** → *Primary Visual Cortex (V1)*  
+- **Memory** → *Hippocampus*  
+- **Emotion** → *Amygdala*
+
+In this AI system, the Conscious Schema Triangle is computationally implemented whenever conscious transformation is triggered. Here's how each component is modeled in code:
+
+- **Perception**: The AI reflects on the input by asking internal questions to interpret its meaning.  
+- **Memory**: The system performs autonomous backpropagation and stores the result as a schema for future reuse.  
+- **Emotion**: An emotion label is assigned to the schema using a trained emotion classification model.
+
+This triangle provides the foundational structure for modeling conscious-like responses in AI, grounded in neurobiological principles.
+
+
+---
+
 ## Why This Matters
 
 Unlike traditional AI systems that generate outputs without self-reflective structure, ConsciousAI simulates the inner loop of awareness: schema evaluation, emotional salience, and transformation under uncertainty. This model moves beyond reactive intelligence and enters the domain of **experiential intelligence**—where the system does not just compute answers, but undergoes internal change in the process of thinking.
